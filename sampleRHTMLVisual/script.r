@@ -1,32 +1,28 @@
 source('./r_files/flatten_HTML.r')
 
 ############### Library Declarations ###############
+libraryRequireInstall("tidyverse");
 libraryRequireInstall("ggplot2");
 libraryRequireInstall("plotly")
 ####################################################
 
 ################### Actual code ####################
-dataset <- values;
+dataset <- Values
 
-g <- dataset %>%
-  ggplot() +
+g <- ggplot(data = dataset) +
   aes(x = `Number of Passes`,
       y = `Wear Volume (mm^3)`, 
       color = `PDC Type`) +
-  geom_point(fill="white", size=2, alpha=1 ) +
+  geom_point(size=2) +
   geom_smooth(method = lm,
               formula = y ~ poly(x, 2),
               level = 0.9,
               linetype = 2
               ) +
   theme_light(base_size = 13) +
-  theme(
-    legend.position = "top",
-    legend.justification = c("center", "top")
-  )
   labs(x="Number of Passes", 
        y="Wear Volumne (mm^3)", 
-       );
+       )
 
 ####################################################
 
