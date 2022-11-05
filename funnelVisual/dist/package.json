@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Mai La","email":"mai.la@nov.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/funnelVisual707C8B5B902E4671972B2C3CC511329F.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"funnelVisual","displayName":"funnelVisual","guid":"funnelVisual707C8B5B902E4671972B2C3CC511329F","visualClassName":"Visual","version":"1.0.0","description":"Funnel Visual","supportUrl":"https://app.powerbi.com","gitHubUrl":"https://github.com/latuyetmai/R_visuals"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

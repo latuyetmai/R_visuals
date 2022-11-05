@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Mai La","email":"mai.la@nov.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/networkD60E3EB49B14F491DAAAC40DDB7149632.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"networkD","displayName":"networkD","guid":"networkD60E3EB49B14F491DAAAC40DDB7149632","visualClassName":"Visual","version":"1.0.0","description":"network D3","supportUrl":"https://app.powerbi.com","gitHubUrl":"https://github.com/latuyetmai/R_visuals"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

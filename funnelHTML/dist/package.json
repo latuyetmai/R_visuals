@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Mai La","email":"mai.la@nov.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/funnelHTML1099225490E342BBBA7FE101B977D647.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"funnelHTML","displayName":"funnelHTML","guid":"funnelHTML1099225490E342BBBA7FE101B977D647","visualClassName":"Visual","version":"1.0.0","description":"funnel RHTML Chart","supportUrl":"https://app.powerbi.com","gitHubUrl":"https://github.com/latuyetmai/R_visuals"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

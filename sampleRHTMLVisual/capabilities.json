@@ -1,9 +1,9 @@
 {
   "dataRoles": [
     {
-      "displayName": "Values",
+      "displayName": "dataset",
       "kind": "GroupingOrMeasure",
-      "name": "Values"
+      "name": "dataset"
     }
   ],
   "dataViewMappings": [
@@ -15,7 +15,7 @@
               "select": [
                 {
                   "for": {
-                    "in": "Values"
+                    "in": "dataset"
                   }
                 }
               ],

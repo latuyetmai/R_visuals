@@ -5,8 +5,8 @@ import VisualConstructorOptions = powerbiVisualsApi.extensibility.visual.VisualC
 import DialogConstructorOptions = powerbiVisualsApi.extensibility.visual.DialogConstructorOptions;
 var powerbiKey: any = "powerbi";
 var powerbi: any = window[powerbiKey];
-var sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2: IVisualPlugin = {
-    name: 'sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2',
+var sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2_DEBUG: IVisualPlugin = {
+    name: 'sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2_DEBUG',
     displayName: 'sampleRHTMLVisual',
     class: 'Visual',
     apiVersion: '5.1.0',
@@ -27,6 +27,6 @@ var sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2: IVisualPlugin = {
 if (typeof powerbi !== "undefined") {
     powerbi.visuals = powerbi.visuals || {};
     powerbi.visuals.plugins = powerbi.visuals.plugins || {};
-    powerbi.visuals.plugins["sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2"] = sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2;
+    powerbi.visuals.plugins["sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2_DEBUG"] = sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2_DEBUG;
 }
-export default sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2;
+export default sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2_DEBUG;

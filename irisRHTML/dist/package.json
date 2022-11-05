@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Mai La","email":"mai.la@nov.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/irisRHTMLCBCC88D3EDD94EA68A912BB9719652D0.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"irisRHTML","displayName":"irisRHTML","guid":"irisRHTMLCBCC88D3EDD94EA68A912BB9719652D0","visualClassName":"Visual","version":"1.0.0","description":"Iris Demo","supportUrl":"https://app.powerbi.com","gitHubUrl":"https://github.com/latuyetmai/R_visuals.git"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

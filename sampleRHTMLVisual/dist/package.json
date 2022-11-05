@@ -8,7 +8,7 @@
             "file": "resources/sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2.pbiviz.json"
         }
     ],
-    "visual": {"name":"sampleRHTMLVisual","displayName":"sampleRHTMLVisual","guid":"sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2","visualClassName":"Visual","version":"1.0.0","description":"Regression with poly2","supportUrl":"https://github.com/latuyetmai/R_visuals.git","gitHubUrl":"https://github.com/latuyetmai/R_visuals.git"},
+    "visual": {"name":"sampleRHTMLVisual","displayName":"sampleRHTMLVisual","guid":"sampleRHTMLVisualD652E24405814DEE955CF1AE145B0BE2","visualClassName":"Visual","version":"1.0.0","description":"Regression with poly2","supportUrl":"https://app.powerbi.com","gitHubUrl":"https://github.com/latuyetmai/R_visuals.git"},
     "metadata": {
         "pbivizjson": {
             "resourceId": "rId0"
